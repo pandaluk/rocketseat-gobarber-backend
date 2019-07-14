@@ -5,9 +5,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "queue": "nodemon scr/queue.js"
+    "queue": "nodemon src/queue.js"
   },
   "dependencies": {
+    "@sentry/node": "5.5.0",
     "bcryptjs": "^2.4.3",
     "bee-queue": "^1.2.2",
     "date-fns": "^2.0.0-beta.2",
